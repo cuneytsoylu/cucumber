@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44c9922f-78cf-4702-a357-977b708f3580" name="Changes" comment="10102022">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ParalelTestRunner1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ParalelTestRunner2.java" afterDir="false" />
+    <list default="true" id="44c9922f-78cf-4702-a357-977b708f3580" name="Changes" comment="12102022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
       <recent name="C:\Users\Ramazan\IdeaProjects\com.CucumberBatch81" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: US1011_WebUniversity">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz">
     <configuration name="Feature: US1011_WebUniversity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1011_WebUniversity.feature" />
@@ -91,58 +87,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParalelTestRunner1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC05_parametre kullanimi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1003_ParametreKullanimi.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch81" />
+      <option name="NAME_FILTER" value="^TC05_parametre kullanimi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC05_parametre kullanimi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC05_parametre kullanimi" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.ParalelTestRunner1" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParalelTestRunner2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch81" />
+      <option name="NAME_FILTER" value="^TC09 yanlis username\, dogru sifre ile giris yapilamaz$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC09 yanlis username\, dogru sifre ile giris yapilamaz$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.ParalelTestRunner2" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC16 Reusable Methods ile window Handle Testi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1011_WebUniversity.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch81" />
+      <option name="NAME_FILTER" value="^TC16 Reusable Methods ile window Handle Testi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC16 Reusable Methods ile window Handle Testi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC16 Reusable Methods ile window Handle Testi" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: US1011_WebUniversity" />
+        <item itemvalue="Cucumber Java.Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz" />
         <item itemvalue="Cucumber Java.Scenario: TC01_Amazon Search Testi" />
-        <item itemvalue="JUnit.ParalelTestRunner1" />
-        <item itemvalue="JUnit.ParalelTestRunner2" />
-        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: TC16 Reusable Methods ile window Handle Testi" />
+        <item itemvalue="Cucumber Java.Scenario: TC05_parametre kullanimi" />
+        <item itemvalue="Cucumber Java.Feature: US1011_WebUniversity" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +180,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665414644107</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="10122022">
+      <created>1665578612135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665578612135</updated>
+    </task>
+    <task id="LOCAL-00004" summary="12102022">
+      <created>1665578671665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665578671665</updated>
+    </task>
+    <task id="LOCAL-00005" summary="12102022">
+      <created>1665578686055</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665578686055</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +218,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="08102022" />
     <MESSAGE value="10102022" />
-    <option name="LAST_COMMIT_MESSAGE" value="10102022" />
+    <MESSAGE value="10122022" />
+    <MESSAGE value="12102022" />
+    <option name="LAST_COMMIT_MESSAGE" value="12102022" />
   </component>
 </project>
