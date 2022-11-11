@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44c9922f-78cf-4702-a357-977b708f3580" name="Changes" comment="12102022">
+    <list default="true" id="44c9922f-78cf-4702-a357-977b708f3580" name="Changes" comment="15102022">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GridStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GridFeatures/grid_test_case.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +49,15 @@
       <recent name="C:\Users\Ramazan\IdeaProjects\com.CucumberBatch81" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz">
-    <configuration name="Feature: US1011_WebUniversity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC01_title_on_chrome">
+    <configuration name="Feature: grid_test_case" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1011_WebUniversity.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GridFeatures/grid_test_case.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch81" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1011_WebUniversity" />
+      <option name="SUGGESTED_NAME" value="Feature: grid_test_case" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -67,15 +69,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01_Amazon Search Testi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC01_title_on_chrome" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1001_amazonsearch.feature" />
-      <option name="GLUE" value="stepdefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GridFeatures/grid_test_case.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch81" />
-      <option name="NAME_FILTER" value="^TC01_Amazon Search Testi$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_Amazon Search Testi$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01_Amazon Search Testi" />
+      <option name="NAME_FILTER" value="^TC01_title_on_chrome$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_title_on_chrome$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01_title_on_chrome" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -87,35 +88,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC05_parametre kullanimi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC04_Amazon flower Search testi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1003_ParametreKullanimi.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1002_background.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch81" />
-      <option name="NAME_FILTER" value="^TC05_parametre kullanimi$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC05_parametre kullanimi$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC05_parametre kullanimi" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="com.CucumberBatch81" />
-      <option name="NAME_FILTER" value="^TC09 yanlis username\, dogru sifre ile giris yapilamaz$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC09 yanlis username\, dogru sifre ile giris yapilamaz$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz" />
+      <option name="NAME_FILTER" value="^TC04_Amazon flower Search testi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC04_Amazon flower Search testi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC04_Amazon flower Search testi" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -147,13 +128,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunnerGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.CucumberBatch81" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.RunnerGrid" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz" />
-        <item itemvalue="Cucumber Java.Scenario: TC01_Amazon Search Testi" />
+        <item itemvalue="Cucumber Java.Scenario: TC01_title_on_chrome" />
+        <item itemvalue="JUnit.RunnerGrid" />
+        <item itemvalue="Cucumber Java.Feature: grid_test_case" />
+        <item itemvalue="Cucumber Java.Scenario: TC04_Amazon flower Search testi" />
         <item itemvalue="Cucumber Java.Scenario: TC16 Reusable Methods ile window Handle Testi" />
-        <item itemvalue="Cucumber Java.Scenario: TC05_parametre kullanimi" />
-        <item itemvalue="Cucumber Java.Feature: US1011_WebUniversity" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665578686055</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="15102022">
+      <created>1665837957796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665837957796</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +223,7 @@
     <MESSAGE value="10102022" />
     <MESSAGE value="10122022" />
     <MESSAGE value="12102022" />
-    <option name="LAST_COMMIT_MESSAGE" value="12102022" />
+    <MESSAGE value="15102022" />
+    <option name="LAST_COMMIT_MESSAGE" value="15102022" />
   </component>
 </project>
