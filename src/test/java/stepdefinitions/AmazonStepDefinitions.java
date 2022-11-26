@@ -13,6 +13,7 @@ import java.security.Key;
 
 public class AmazonStepDefinitions {
 
+
     AmazonPage amazonPage=new AmazonPage();
 
     @Given("kullanici amazon sayfasina gider")
